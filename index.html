@@ -1,0 +1,86 @@
+<html>
+
+<head>
+    <title>My school website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Visyashilp Academy</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#welcome">WELCOME</a></li>
+                <li><a href="#campus life">CAMPUS LIFE</a></li>
+                <li><a href="#achievemnts">ACHIEVEMENTS</a></li>
+                <li><a href="#alumini">ALUMINI</a></li>
+                <li><a href="#what's new">WHAT'S NEW</a></li>
+                <li><a href="#contactUs">CONTACT US</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <div class="page-header" id="welcome">
+        <h2 class="text-capitalize">Vidyashilp Academy</h2>
+    </div>
+    <center>
+        <div class="school_mainDiv">
+            <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Vidyashilp_Academy_.jpg">
+            <h4 class="text-capitalize"><kbd>Vidyashilp Academy</kbd></h4>
+            <hr>
+            <h5 class="text-success text-left text-capatalize">Vidyashilp Academy school in bangalore</h5>
+            <p class="text-muted text-left">Vidyashilp Academy is a private, co-educational school located in Jakkur, Bangalore, India. Vidyashilp Academy is a top-ranking ICSE and Cambridge school located in Bangalore North. The school is also a member of the Association of International Schools in India. While it has its own in-house curriculum, the school also follows the ICSE board along with A Levels.</p>
+        </div>
+        <div class="announcement">
+            <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** feel free to ask questions on vidyashilp@gmail.com ***
+            </marquee>
+        </div>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/3PxsqTTr2dU"></iframe>
+    </center>
+
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capatilize">Contact us</h2>
+        </div>
+
+        <div id="map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15544.716059467572!2d77.5972129!3d13.0878385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f6133506f53a0d8!2sVidyashilp%20Academy!5e0!3m2!1sen!2sin!4v1618139774815!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div id="details">
+                <img src="data:image/jpeg;base64,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" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                <h3>principal name:</h3>
+                <h4>Kalai selvi</h4>
+                <div class="contact_1">
+                    <a href="mailto:my@gmail.com?Subject=Hi">
+                        <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;vidyashilp@gmail.com</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;vidyashilp.academy</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
