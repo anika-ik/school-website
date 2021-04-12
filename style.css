@@ -2,3 +2,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+img_modal{
+    display: inline-block;
+}
+.modal-content{
+    margin-top: 100px;
+}
